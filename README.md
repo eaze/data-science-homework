@@ -15,8 +15,7 @@ How do I take this assessment?
   3. Zip your solutions folder.  
       ```zip -r solutions.zip solutions```  
   4. Email ```solutions.zip``` to ```atilley@eaze.com```.
-  5. Your assessment will be scored, and you will receive an email with your
-     results.
+  5. You'll receive an email with your results.
       
 *Important Note: Questions 4 and 5 can be completed in either R or Python (doesn't
 have to be the same for 4 and 5). If you fill out both the R and Python 
