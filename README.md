@@ -11,16 +11,11 @@ Expected completion time: 3 hours.
 How do I take this assessment?
   1. Clone this repo onto your local machine.  
       ```git clone https://github.com/eaze/data-science-homework.git```
-  2. Create (and switch to) a new branch with your email address. (Note you must
-     be in the directory for this to work).
-      ```git checkout -b address@email.com```
-  3. Answer the questions below by filling out the files in the solutions folder.  
-  4. Push your branch. (Only do this once you've completed the assessment!)   
-      ```git add .```  
-      ```git commit -m "took assessment"```  
-      ```git push --set-upstream origin address@email.com```
-  5. Your assessment will be scored, and you will receive an email with your
-     results.
+  2. Answer the questions below by filling out the files in the solutions folder.  
+  3. Zip your solutions folder.  
+      ```zip -r solutions.zip solutions```  
+  4. Email ```solutions.zip``` to ```atilley@eaze.com```.
+  5. You'll receive an email with your results.
       
 *Important Note: Questions 4 and 5 can be completed in either R or Python (doesn't
 have to be the same for 4 and 5). If you fill out both the R and Python 
