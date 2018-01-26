@@ -34,7 +34,7 @@ What topics are covered?
 
 Question 1. Positive Fractions (Math / Problem Solving) [5 minutes]
 
-The numerator and denumerator of Juan’s fraction are positive integers whose 
+The numerator and denominator of Juan’s fraction are positive integers whose 
 sum is 2011. The value of this fraction is less than 1 / 3. Find the greatest
 such fraction.
 
