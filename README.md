@@ -101,13 +101,15 @@ where user 1 referred user 2, user 2 referred user 3, user 3 referred user 4, et
 
 In this system, each user except for user N has referred exactly one person.
 
-While there are N users, the state vector s has length (N + 1) and is indexed at
-0. The threshold vector t is unknown but distributed uniformly with support on
-[0.5, 1].
+While there are N users, the binary state vector s has cardinality (N + 1) and is 
+indexed at 0. The threshold vector t is a random variable distributed uniformly 
+with support on [0.5, 1].
 
-Write a function which takes in N (the number of users) and s_N (the state 
-probability for the last user in the chain) and returns the maximum likelihood estimate 
-of s_0 (rounded to 2 decimal places).
+Write a function which takes in N (the number of users) and s_N (the sample 
+expectation for the last user in the chain; this can also be interpreted as
+the probability the last user in the chain is Active) and returns the maximum 
+likelihood estimate of the state probability of s_0 (the probability that s_0 is
+1). Please round your answer to 2 decimal places.
 
 *Important Note: In order to receive a score, your function must finish running
 in under 30 minutes for N <= 5.
