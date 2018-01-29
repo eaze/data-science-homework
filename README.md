@@ -108,7 +108,7 @@ with support on [0.5, 1].
 Write a function which takes in N (the number of users) and s_N (the sample 
 expectation for the last user in the chain; this can also be interpreted as
 the probability the last user in the chain is Active) and returns the maximum 
-likelihood estimate of the state probability of s_0 (that is, the probability 
+likelihood estimate of the state probability of s_0 (i.e. the probability 
 that s_0 is 1). Please round your answer to 2 decimal places.
 
 *Important Note: In order to receive a score, your function must finish running
