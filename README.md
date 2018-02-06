@@ -78,7 +78,7 @@ Write your query in question_3.sql.
 
 Question 4. Forecasting (Data Science) [60 minutes]
 
-Write a function in R or Python that takes in a dataset (.csv file)
+Write a function in R or Python that takes in a dataset (.csv file; see data/hourly_volume.csv for sample data)
 and a number of days forward, and generates predictions for hourly
 order volume.
 
