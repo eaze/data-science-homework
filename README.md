@@ -70,7 +70,7 @@ their first 28 days.
 
 *Note: An order is considered to be in the user's first 28 days if
 it happened before OR on first_date + days(28). E.g. if the user's first order
-was on 1/1/2018, an order on 1/29/18 would still count as a first_28_day_order.
+was on 1/1/2018, an order on 1/29/18 would still count as a first_28_day_order.*
 
 Write your query in question_3.sql.
 
