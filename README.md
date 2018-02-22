@@ -68,7 +68,7 @@ user first_28_day_orders
 which contains one row for every user along with how many orders they had in
 their first 28 days.
 
-*Important Note: An order is considered to be in the user's first 28 days if
+*Note: An order is considered to be in the user's first 28 days if
 it happened before OR on first_date + days(28). E.g. if the user's first order
 was on 1/1/2018, an order on 1/29/18 would still count as a first_28_day_order.
 
@@ -81,6 +81,8 @@ Question 4. Forecasting (Data Science) [60 minutes]
 Write a function in R or Python that takes in a dataset (.csv file; see data/hourly_volume.csv for sample data)
 and a number of days forward, and generates predictions for hourly
 order volume.
+
+*Note: Forecasts should be produced for starting at the end of the supplied dataset. E.g. if the dataset contains data up to 2018-01-31 and days_forward is 2, then your function should return predictions for every date in [2018-02-01 00:00:00, 2018-02-02 23:00:00].*
 
 Write your function in question_4.r or question_4.py.
 
