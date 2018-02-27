@@ -23,7 +23,7 @@ function files for a question, we will score both and give you the best result.
 <br />
 
 What topics are covered?
-  - Math / Problem Solving
+  - Mathematics / Problem Solving
   - Probability
   - SQL
   - Data Science (Modeling, Machine Learning)
