@@ -14,7 +14,7 @@ How do I take this assessment?
   2. Answer the questions below by filling out the files in the solutions folder.  
   3. Zip your solutions folder.  
       ```zip -r solutions.zip solutions```  
-  4. Email ```solutions.zip``` to ```atilley@eaze.com```.
+  4. Email ```solutions.zip``` to ```atilley@eaze.com``` (or your recruiter).
   5. You'll receive an email with your results.
       
 *Important Note: Questions 4 and 5 can be completed in either R or Python (doesn't
