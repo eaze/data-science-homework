@@ -17,8 +17,7 @@ How do I take this assessment?
   4. Email ```solutions.zip``` to ```atilley@eaze.com``` (or your recruiter).
   5. You'll receive an email with your results.
       
-*Important Note: Questions 4 and 5 can be completed in either R or Python (doesn't
-have to be the same for 4 and 5). If you fill out both the R and Python 
+*Important Note: Questions 4 and 5 can both be completed in either R or Python. If you fill out both the R and Python 
 function files for a question, we will score both and give you the best result.
 
 <br />
