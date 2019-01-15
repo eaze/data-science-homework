@@ -62,14 +62,14 @@ Question 3. Order Query (SQL) [15 minutes]
 Write a SQL query (using SQLite syntax - http://www.sqlite.org/index.html) on the user_orders table (data/user_orders.csv)
 that returns the following table:
 
-user first_28_day_orders
+user first_29_day_orders
 
 which contains one row for every user along with how many orders they had in
-their first 28 days.
+their first 29 days.
 
-*Note: An order is considered to be in the user's first 28 days if
+*Note: An order is considered to be in the user's first 29 days if
 it happened before OR on first_date + days(28). E.g. if the user's first order
-was on 1/1/2018, an order on 1/29/18 would still count as a first_28_day_order.*
+was on 1/1/2018, an order on 1/29/18 would still count as a first_29_day_order but an order on 1/30/18 would not.*
 
 Write your query in question_3.sql.
 
@@ -79,7 +79,7 @@ Question 4. Forecasting (Data Science) [60 minutes]
 
 Write a function in R or Python that takes in a dataset (.csv file; see data/hourly_volume.csv for sample data)
 and a number of days forward, and generates predictions for hourly
-order volume.
+order volume. Feel free to use any existing libraries/packages.
 
 *Note: Forecasts should be produced starting at the end of the supplied dataset. E.g. if the dataset contains data up to 2018-01-31 and days_forward is 2, then your function should return predictions for every date in [2018-02-01 00:00:00, 2018-02-02 23:00:00].*
 
