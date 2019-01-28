@@ -69,6 +69,8 @@ user first_29_day_orders
 which contains one row for every user along with how many orders they had in
 their first 29 days.
 
+Write your query in the format of a SELECT statement.
+
 *Note: An order is considered to be in the user's first 29 days if
 it happened before OR on first_date + days(28). E.g. if the user's first order
 was on 1/1/2018, an order on 1/29/18 would still count as a first_29_day_order but an order on 1/30/18 would not.*
