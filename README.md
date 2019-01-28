@@ -55,6 +55,8 @@ What is the probability that taking this bet will be in your favor?
 
 Write your answer (rounded to 5 decimal points) in question_2.txt.
 
+*Hint: The answer is not simply the probability that the sixth card is a face card. Imagine that the dealer is asking you to place your bet before handing you any cards; what is the probability that doing so will result in a monetary gain for you?*
+
 <br />
 
 Question 3. Order Query (SQL) [15 minutes]
