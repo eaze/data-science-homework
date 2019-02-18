@@ -55,7 +55,7 @@ What is the probability that taking this bet will be in your favor?
 
 Write your answer (rounded to 5 decimal points) in question_2.txt.
 
-*Hint: The answer is not simply the probability that the sixth card is a face card. You can rephrase the question as, "What is the probability that you will be dealt a 5-card hand such that taking the bet will be in your favor?"*
+*Hint: The answer is not simply the probability that the sixth card is a face card. You can rephrase the question as, "What is the probability that you will be dealt a 5-card hand such that taking the bet is in your favor?"*
 
 <br />
 
