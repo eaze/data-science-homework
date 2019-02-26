@@ -87,7 +87,7 @@ Write a function in R or Python that takes in a dataset (.csv file; see data/hou
 and a number of days forward, and generates predictions for hourly
 order volume. Feel free to use any existing libraries/packages.
 
-*Note: Forecasts should be produced starting at the end of the supplied dataset. E.g. if the dataset contains data up to 2018-01-31 and days_forward is 2, then your function should return predictions for every date in [2018-02-01 00:00:00, 2018-02-02 23:00:00].*
+*Notes: 1) Forecasts should be produced starting at the end of the supplied dataset. E.g. if the dataset contains data up to 2018-01-31 and days_forward is 2, then your function should return predictions for every date in [2018-02-01 00:00:00, 2018-02-02 23:00:00]. 2) Your function should return a data table with only two columns: the first one referring to order hour (formatted like example dates in this comment) and the second one referring to the predicted order volume.*
 
 Write your function in question_4.r or question_4.py.
 
