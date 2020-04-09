@@ -14,11 +14,10 @@ How do I take this assessment?
   2. Answer the questions below by filling out the files in the solutions folder.  
   3. Zip your solutions folder.  
       ```zip -r solutions.zip solutions```  
-  4. Email ```solutions.zip``` to ```atilley@eaze.com``` and ```shri@eaze.com``` (or your recruiter).
-  5. You'll receive an email with your results.
+  4. Email ```solutions.zip``` to ```analytics@eaze.com``` (or your recruiter).
       
-*Important Note: Questions 4 and 5 can both be completed in either R or Python. If you fill out both the R and Python 
-function files for a question, we will score both and give you the best result.
+*Important Note: Question 4 can be completed in either R or Python. If you fill out both the R and Python 
+function files for a question, we will evaluate both.
 
 <br />
 
@@ -93,39 +92,4 @@ Write your function in question_4.r or question_4.py.
 
 <br />
 
-Question 5. Referral Chain (Applied Mathematics) [90 minutes]
-
-Suppose your business has a network of users who are all either Active (1) or
-Inactive (0) (we call this the user's state). Each user was referred by an existing
-user, except for the first user. At any given time, each user's likelihood of being 
-Active is a function of their referrer's state along with some threshold t_i.
-
-Specifically, we can define the state of each user with the following equation:
-
-(docs/equation 1.jpg),
-
-where user 1 referred user 2, user 2 referred user 3, user 3 referred user 4, etc.
-
-In this system, each user except for user N has referred exactly one person.
-
-While there are N users, the binary state vector s has cardinality (N + 1) and is 
-indexed at 0. The threshold vector t is a random variable distributed uniformly 
-with support on [0.5, 1].
-
-Write a function which takes in N (the number of users) and s_N (the sample 
-expectation for the last user in the chain; this can also be interpreted as
-the probability the last user in the chain is Active) and returns the maximum 
-likelihood estimate of the state probability of s_0 (i.e. the probability 
-that s_0 is 1). Please round your answer to 2 decimal places.
-
-*Important Note: In order to receive a score, your function must finish running
-in under 30 minutes for N <= 5.
-
-Write your function in question_5.r or question_5.py.
-
 <br />
-
-<br />
-
-If anything on this assessment is unclear, please email questions to ```atilley@eaze.com```.
-
