@@ -4,7 +4,7 @@ Assessment for Data / Growth Science role at Eaze.
 
 <br />
 
-Expected completion time: 3 hours. Note that the time next to each question is not a limit but rather a suggestion; feel free to spend more time if you need it.
+Expected completion time: ~2 hours. Note that the time next to each question is not a limit but rather a suggestion; feel free to spend more time if you need it.
 
 <br />
 
