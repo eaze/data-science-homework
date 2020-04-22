@@ -16,9 +16,6 @@ How do I take this assessment?
       ```zip -r solutions.zip solutions```  
   4. Email ```solutions.zip``` to ```analytics@eaze.com``` (or your recruiter).
       
-*Important Note: Question 4 can be completed in either R or Python. If you fill out both the R and Python 
-function files for a question, we will evaluate both.
-
 <br />
 
 What topics are covered?
@@ -82,13 +79,13 @@ Write your query in question_3.sql.
 
 Question 4. Forecasting (Data Science) [60 minutes]
 
-Write a function in R or Python that takes in a dataset (.csv file; see data/hourly_volume.csv for sample data)
+Write a function in Python that takes in a dataset (.csv file; see data/hourly_volume.csv for sample data)
 and a number of days forward, and generates predictions for hourly
 order volume. Feel free to use any existing libraries/packages.
 
 *Notes: 1) Forecasts should be produced starting at the end of the supplied dataset. E.g. if the dataset contains data up to 2018-01-31 and days_forward is 2, then your function should return predictions for every date in [2018-02-01 00:00:00, 2018-02-02 23:00:00]. 2) Your function should return a data table with only two columns: the first one referring to order hour (formatted like example dates in this comment) and the second one referring to the predicted order volume.*
 
-Write your function in question_4.r or question_4.py.
+Write your function in question_4.py.
 
 <br />
 
