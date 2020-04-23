@@ -59,7 +59,7 @@ Write your answer (rounded to 5 decimal points) in question_2.txt.
 
 Question 3. Order Query (SQL) [15 minutes]
 
-Write a SQL query (using SQLite syntax - http://www.sqlite.org/index.html) on the user_orders table (data/user_orders.csv)
+Write a SQL query (using Postgres or SQLite syntax - http://www.sqlite.org/index.html) on the user_orders table (data/user_orders.csv)
 that returns the following table:
 
 user first_29_day_orders
