@@ -43,7 +43,7 @@ Question 2. Counting Cards (Probability) [10 minutes]
 
 A standard deck of 52 cards has 12 "face cards" (Jack, Queen, King of each suit).
 Suppose you're playing a game where you're given six cards. After the dealer gives
-you the first five cards (which are now removed from the deck), he offers 
+you the first five cards (which are now removed from the deck), they offer
 you the chance to bet on the outcome of the sixth card: if it's a face card, you 
 quadruple your money; otherwise, you lose your money. For example, if you bet $1 and 
 win you will end with $4 (your $1 + winnings of $3), but if you bet $1 and lose you
