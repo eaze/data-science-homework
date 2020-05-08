@@ -59,15 +59,10 @@ Write your answer (rounded to 5 decimal points) in question_2.txt.
 
 Question 3. Order Query (SQL) [15 minutes]
 
-Write a SQL query (using Postgres or SQLite syntax - http://www.sqlite.org/index.html) on the user_orders table (data/user_orders.csv)
-that returns the following table:
-
-user first_29_day_orders
-
-which contains one row for every user along with how many orders they had in
+Write a SQL query (using Postgres or SQLite syntax - http://www.sqlite.org/index.html) on the user_orders table (data/user_orders.csv)that contains one row for every user along with how many orders they had in
 their first 29 days.
 
-Write your query in the format of a SELECT statement.
+Please strive for readable and cleanly formatted SQL.
 
 *Note: An order is considered to be in the user's first 29 days if
 it happened before OR on first_date + days(28). E.g. if the user's first order
