@@ -12,9 +12,9 @@ How do I take this assessment?
   1. Clone this repo onto your local machine.  
       ```git clone https://github.com/eaze/data-science-homework.git```
   2. Answer the questions below by filling out the files in the solutions folder.  
-  3. Zip your solutions folder.  
-      ```zip -r solutions.zip solutions```  
-  4. Email ```solutions.zip``` to ```analytics@eaze.com``` (or your recruiter).
+  3. Zip your solutions folder with your name in the filename.  
+      ```zip -r solutions_{first_name}_{last_name}.zip solutions```  
+  4. Email ```solutions_{first_name}_{last_name}.zip``` to ```analytics@eaze.com``` (or your recruiter).
       
 <br />
 
