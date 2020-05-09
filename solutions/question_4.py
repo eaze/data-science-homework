@@ -1,4 +1,4 @@
-# 4. Write a function in R or Python that takes in a dataset (.csv file)
+# 4. Write a function in Python that takes in a dataset (.csv file)
 #    and a number of days forward, and generates predictions for hourly
 #    order volume.
 
