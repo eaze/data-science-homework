@@ -57,22 +57,27 @@ Write your answer (rounded to 5 decimal points) in question_2.txt.
 
 <br />
 
-Question 3. Order Query (SQL) [15 minutes]
+Question 3. Delivery rate (Statistics) [5 minutes]
 
-Write a SQL query (using Postgres or SQLite syntax - http://www.sqlite.org/index.html) on the user_orders table (data/user_orders.csv)that contains one row for every user along with how many orders they had in
-their first 29 days.
-
-Please strive for readable and cleanly formatted SQL.
-
-*Note: An order is considered to be in the user's first 29 days if
-it happened before OR on first_date + days(28). E.g. if the user's first order
-was on 1/1/2018, an order on 1/29/18 would still count as a first_29_day_order but an order on 1/30/18 would not.*
-
-Write your query in question_3.sql.
+A food delivery company averages 100 deliveries in 5 minutes. 
+Find the approximate 95% interval for the number of deliveries per hour. 
+Provide two values, provide up to 1 digit after decimal point.
 
 <br />
 
-Question 4. Forecasting (Data Science) [60 minutes]
+Question 4. Hypothesis Testing (Statistics) [5 minutes]
+
+After a new method of quality control was introduced in the packing process of goods in a warehouse,
+200 packages were examined and 26 showed some defects. Before this method was implemented,
+the defective rate was at most 10%. The warehouse needs to determine whether the new method actually increases the defective rate.
+
+At alpha=0.05 significance level, what is the test statistics, and is the increase in defective rate of new method statistically significant? 
+
+Provide two values, first the test statistic answer up to 3 digits after decimal point, then boolean 1 if it is significant, 0 otherwise
+
+<br />
+
+Question 5. Forecasting (Data Science) [60 minutes]
 
 Write a function in Python that takes in a dataset (.csv file; see data/hourly_volume.csv for sample data)
 and a number of days forward, and generates predictions for hourly
