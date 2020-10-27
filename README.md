@@ -58,9 +58,7 @@ Write your answer (rounded to 5 decimal points) in question_2.txt.
 
 Question 3. Delivery rate (Statistics) [5 minutes]
 
-A food delivery company averages 100 deliveries in 5 minutes. 
-
-Find the approximate 95% interval for the number of deliveries per hour. 
+A food delivery company averages 100 deliveries in 5 minutes. Find the approximate 95% interval for the number of deliveries per hour. 
 
 Provide two values, each up to 1 digit after decimal point.
 
