@@ -62,7 +62,7 @@ A food delivery company averages 100 deliveries in 5 minutes. Find the approxima
 
 Write your answers in question_3.txt; provide two values, each up to 1 digit after decimal point. 
 
-i.e. lower_bound, upper_boud
+i.e. lower_bound, upper_bound
 
 <br />
 
