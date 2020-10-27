@@ -59,6 +59,7 @@ Write your answer (rounded to 5 decimal points) in question_2.txt.
 Question 3. Delivery rate (Statistics) [5 minutes]
 
 A food delivery company averages 100 deliveries in 5 minutes. 
+
 Find the approximate 95% interval for the number of deliveries per hour. 
 
 Provide two values, each up to 1 digit after decimal point.
@@ -71,7 +72,7 @@ After a new method of quality control was introduced in the packing process of g
 200 packages were examined and 26 showed some defects. Before this method was implemented,
 the defective rate was at most 10%. The warehouse needs to determine whether the new method actually increases the defective rate.
 
-At alpha=0.05 significance level, what is the test statistics, and is the increase in defective rate of new method statistically significant? 
+At alpha = 0.05 significance level, what is the test statistics, and is the increase in defective rate of new method statistically significant? 
 
 Provide two values: first the test statistic up to 3 digits after decimal point, then boolean value 1 if it is significant, 0 otherwise.
 
