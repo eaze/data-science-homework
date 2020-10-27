@@ -60,7 +60,9 @@ Question 3. Delivery rate (Statistics) [5 minutes]
 
 A food delivery company averages 100 deliveries in 5 minutes. Find the approximate 95% interval for the number of deliveries per hour. 
 
-Provide two values, each up to 1 digit after decimal point.
+Write your answers in question_3.txt; provide two values, each up to 1 digit after decimal point. 
+
+i.e. lower_bound, upper_boud
 
 <br />
 
@@ -72,7 +74,9 @@ the defective rate was at most 10%. The warehouse needs to determine whether the
 
 At alpha = 0.05 significance level, what is the test statistics, and is the increase in defective rate of new method statistically significant? 
 
-Provide two values: first the test statistic up to 3 digits after decimal point, then boolean value 1 if it is significant, 0 otherwise.
+Write your answers in question_4.txt; test statistic up to 3 digits after decimal point, then boolean value (1 if it is significant, 0 otherwise).
+
+i.e. test_statistics, boolean
 
 <br />
 
@@ -84,7 +88,7 @@ order volume. Feel free to use any existing libraries/packages.
 
 *Notes: 1) Forecasts should be produced starting at the end of the supplied dataset. E.g. if the dataset contains data up to 2018-01-31 and days_forward is 2, then your function should return predictions for every date in [2018-02-01 00:00:00, 2018-02-02 23:00:00]. 2) Your function should return a data table with only two columns: the first one referring to order hour (formatted like example dates in this comment) and the second one referring to the predicted order volume.*
 
-Write your function in question_4.py.
+Write your function in question_5.py.
 
 <br />
 
