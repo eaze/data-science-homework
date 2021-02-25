@@ -21,6 +21,7 @@ How do I take this assessment?
 What topics are covered?
   - Mathematics / Problem Solving
   - Probability
+  - SQL
   - Hypothesis testing
   - Data Science (Modeling, Machine Learning)
 
