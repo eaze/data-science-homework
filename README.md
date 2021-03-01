@@ -57,12 +57,15 @@ Write your answer (rounded to 5 decimal points) in question_2.txt.
 
 <br />
 
-Question 3. Order Query (SQL) [15 minutes]
+Question 3. Order Query (SQL) [20 minutes]
 
-Write a SQL query (using Postgres or SQLite syntax - http://www.sqlite.org/index.html) on the user_orders table (data/user_orders.csv)that contains one row for every user along with how many orders they had in their first 29 days.
+Write a SQL query (using Postgres or SQLite syntax - http://www.sqlite.org/index.html) on the user_orders table (data/user_orders.csv) that shows:
+1. What % of users placed more than 1 order in the first 28 days
+2. what % of users have an average days between order over 28 days
+
+THe resultant table should have two columns: `pct_users_multiple_orders_28_days` and `pct_user_average_days_over_28_days`.
 
 Please strive for readable and cleanly formatted SQL.
-
 Note: An order is considered to be in the user's first 29 days if it happened before OR on first_date + days(28). E.g. if the user's first order was on 1/1/2018, an order on 1/29/18 would still count as a first_29_day_order but an order on 1/30/18 would not.
 
 Write your query in question_3.sql.
