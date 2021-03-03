@@ -104,7 +104,7 @@ order volume. Feel free to use any existing libraries/packages.
 
 *Notes: 1) Forecasts should be produced starting at the end of the supplied dataset. E.g. if the dataset contains data up to 2018-01-31 and days_forward is 2, then your function should return predictions for every date in [2018-02-01 00:00:00, 2018-02-02 23:00:00]. 2) Your function should return a data table with only two columns: the first one referring to order hour (formatted like example dates in this comment) and the second one referring to the predicted order volume.*
 
-Write your function in question_5.py.
+Write your function in question_6.py.
 
 <br />
 
